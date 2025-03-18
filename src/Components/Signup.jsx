@@ -38,15 +38,17 @@ export default function SignUp() {
           <span className="text-sm">I agree with Terms & Conditions</span>
         </div>
 
-        <button className="w-full bg-green-700 text-white py-3 rounded-lg hover:bg-green-800 transition">
+        {/* Updated Button Color */}
+        <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">
           Sign Up
         </button>
 
         <p className="text-center text-sm mt-4">
-          Already registered? 
-          <span 
-            className="text-blue-600 cursor-pointer" 
-            onClick={() => navigate("/farmer-login")}>
+          Already registered?{" "}
+          <span
+            className="text-blue-600 cursor-pointer"
+            onClick={() => navigate("/IndustryLogin")}
+          >
             Log in
           </span>
         </p>
